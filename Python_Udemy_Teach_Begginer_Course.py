@@ -1,0 +1,20 @@
+item1_name = input("What are you buying for the first product?\n")
+item1_quantity = input("How many " + item1_name + " are you going to buy?\n")
+item1_price = input("How much does " + item1_name + " cost?\n")
+item2_name = input("What are you buying for the second product?\n")
+item2_quantity = input("How many " + item2_name + " are you going to buy?\n")
+item2_price = input("How much does " + item2_name + " cost?\n")
+item3_name = input("What are you buying for the third product?\n")
+item3_quantity = input("How many " + item3_name + " are you going to buy?\n")
+item3_price = input("How much does " + item3_name + " cost?\n")
+
+result1 = float(item1_price) * float(item1_quantity)
+result2 = float(item2_price) * float(item2_quantity)
+result3 = float(item3_price) * float(item3_quantity)
+
+resultfinal = float(result1) + float(result2) + float(result3)
+
+print("You paid " + str(result1) + " for the first product\n")
+print("You paid " + str(result2) + " for the second product\n")
+print("You paid " + str(result3) + " for the third product\n")
+print("You result in " + str(resultfinal) + "$")
